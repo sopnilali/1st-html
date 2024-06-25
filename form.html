@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Documents</title>
+    
+    <style>
+        input{
+            background-color: green;
+            color: white;
+            width: 100%;
+            border: none;
+            border-radius: 20px;
+        }
+        fieldset{
+            background-color: aquamarine;
+        }
+        legend{
+            font-size: 20px;
+            text-align: center;
+        }
+        textarea{
+            width: 100%;
+            background-color: green;
+            color: white;
+        }
+        .btn{
+            font-size: 20px;
+            text-transform: capitalize;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <H1>Input Form</H1>
+    <form>
+        <fieldset>
+        <legend>Enter Your Documents</legend>
+        <label>First Name</label><br>
+        <input type="text" name="fname"><br><br>
+        <label>Last Name</label><br>
+        <input type="text" name="lname" ><br><br>
+        <label>Mobile Number</label><br>
+        <input type="number" name="number"><br><br>
+        <label>Email Addres</label><br>
+        <input type="email" name="email"><br><br>
+        <label>Password </label><br>
+        <input type="password" name="password"><br><br>
+        <label>Your Addres</label><br>
+        <textarea name="yaddress"></textarea><br><br>
+        <input class="btn" type="submit" value="Input Data">
+    </fieldset>
+    </form>
+</body>
+</html>
